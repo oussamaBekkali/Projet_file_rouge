@@ -9,13 +9,12 @@ title: Plan du rapport
 
 - [Remerciement](#remerciement)
 - [Introduction](#introduction)
-- [Contexte du projet](#contexte-du-projet)
-- [Cahier des charges](#cahier-des-charges)
-- [Méthodologie de travail](#méthodologie-de-travail)
-  - [Méthodologie Scrum](#méthodologie-scrum)
-  - [Processus 2TUP](#processus-2tup)
+- [Contexte de projet](#contexte-de-projet)
+  - [Cahier des charges](#cahier-des-charges)
+  - [Méthodologie de travail](#méthodologie-de-travail)
+  - [Scrum](#scrum)
+  - [2TUP](#2tup)
   - [Design Thinking](#design-thinking)
-- [Planification](#planification)
 - [Branche fonctionnelle](#branche-fonctionnelle)
   - [Carte d'empathie](#carte-d'empathie)
   - [Définition du problème](#définition-du-problème)
@@ -23,53 +22,36 @@ title: Plan du rapport
   - [Diagramme de cas d'utilisation](#diagramme-de-cas-d'utilisation)
 - [Branche technique](#branche-technique)
   - [Stack technologique](#stack-technologique)
-  - [Architecture logicielle](#architecture-logicielle)
+  - [Architecture de system](#architecture-de-system)
   - [Prototype (fonctionnalités, classes)](#prototype-fonctionnalités-classes)
 - [Conception](#conception)
   - [Diagramme de classes](#diagramme-de-classes)
   - [Maquettes](#maquettes)
 - [Réalisation](#réalisation)
-- [Interfaces](#interfaces)
+  - [Interfaces](#interfaces)
 - [Conclusion](#conclusion)
 
 # Remerciement
 
 # Introduction
 
-# Contexte du projet
+# Contexte de projet
 
-## 2. FleetTrack — Fleet Management System
+## Cahier des charges
 
-**Projet Fil Rouge**
-
-A web-based fleet management application designed to manage vehicles, drivers, goods, and deliveries.
-
-**Main features:**
-- Fleet dashboard and statistics.
-- Vehicle management.
-- Driver management.
-- Goods and cargo type management.
-- Delivery dispatch and tracking.
-- Vehicle capacity verification.
-- Referential integrity protection.
-- Real-time search and filtering.
-- Responsive interface.
-
-# Cahier des charges
-
-# Méthodologie de travail
-
-## Méthodologie Scrum
+## Méthodologie de travail
 
 # Méthode de travail
 
-![scrum](SCRUM/scrum.png)
+![scrum](Scrum/scrum.png)
+
+## Scrum
 
 ## La méthode SCRUM
 
 La méthodologie Scrum est une méthodologie agile qui permet de gérer un projet de manière flexible et collaborative, en favorisant la livraison progressive de fonctionnalités. Elle repose sur l'itération, la priorisation des tâches et la communication régulière entre les membres de l'équipe. Dans le cadre de ce projet Promatch, nous avons organisé le travail selon les principes de Scrum, ce qui nous a permis de mieux planifier, suivre et livrer les différentes fonctionnalités de manière efficace.
 
-![Figure 3 : La méthode SCRUM](SCRUM/scrum.png)
+![Figure 3 : La méthode SCRUM](Scrum/scrum.png)
 
 *Figure 3 : La méthode SCRUM*
 
@@ -85,15 +67,15 @@ La méthodologie Scrum est une méthodologie agile qui permet de gérer un proje
 
 -
 
-![scrum](SCRUM/scrum.png)
+![scrum](Scrum/scrum.png)
 
 ### Sprint 2 :
 
 -
 
-![scrum](SCRUM/scrum.png)
+![scrum](Scrum/scrum.png)
 
-## Processus 2TUP
+## 2TUP
 
 ## 2.3 2TUP
 
@@ -148,7 +130,7 @@ comprend la conception, le codage, les tests, la recette et le déploiement.
 
 Ainsi, l’adoption de la méthode Scrum a permis d’assurer une organisation efficace du travail et une meilleure gestion du projet. Elle a contribué à améliorer la qualité des fonctionnalités développées et à garantir un déroulement structuré du projet ImmoSync.
 
-![design_thinking](design_thinking/design_thinking.jpg)
+![design_thinking](Design Thinking/design_thinking.jpg)
 
 ## Design thinking
 
@@ -167,7 +149,7 @@ Le Design Thinking est particulièrement utilisé pour :
 - Favoriser la collaboration entre différentes équipes de travail ;
 - Résoudre des problèmes complexes ou mal définis de manière structurée.
 
-![design_thinking](design_thinking/design_thinking.jpg)
+![design_thinking](Design Thinking/design_thinking.jpg)
 
 ## Les étapes du Design Thinking
 
@@ -181,9 +163,7 @@ Le processus du Design Thinking se compose de plusieurs étapes essentielles :
 
 Le Design Thinking est donc une méthode structurée et flexible qui permet de transformer une idée en solution concrète en mettant toujours l’utilisateur au centre du processus.
 
-![design_thinking](design_thinking/design_thinking.jpg)
-
-# Planification
+![design_thinking](Design Thinking/design_thinking.jpg)
 
 # Branche fonctionnelle
 
@@ -243,7 +223,7 @@ Both projects use web development technologies, with their respective implementa
 - CSS3
 - JavaScript
 
-## Architecture logicielle
+## Architecture de system
 
 # Architecture du système
 
@@ -314,6 +294,23 @@ Le parcours d’une requête est le suivant :
 2. `api.php` transmet l’opération au traitement PHP, puis à la classe qui lit ou met à jour le fichier JSON.
 3. Le résultat est renvoyé au navigateur au format JSON ; l’interface affiche la liste actualisée.
 
+## 2. FleetTrack — Fleet Management System
+
+**Projet Fil Rouge**
+
+A web-based fleet management application designed to manage vehicles, drivers, goods, and deliveries.
+
+**Main features:**
+- Fleet dashboard and statistics.
+- Vehicle management.
+- Driver management.
+- Goods and cargo type management.
+- Delivery dispatch and tracking.
+- Vehicle capacity verification.
+- Referential integrity protection.
+- Real-time search and filtering.
+- Responsive interface.
+
 ## Prototype (fonctionnalités, classes)
 
 # Projet technique (Prototype CRUD)
@@ -347,6 +344,22 @@ La plateforme permet de créer et d'organiser les tâches, de les assigner aux d
 
 # Réalisation
 
-# Interfaces
+## Interfaces
 
 # Conclusion
+
+### Conclusion
+
+La méthode 2TUP fournit un cadre de travail structuré et adaptable pour la
+réalisation de **[Nom du projet]**. La séparation entre les branches
+fonctionnelle et technique facilite la compréhension des besoins et permet de
+prendre les décisions techniques au moment approprié.
+
+En réunissant ces deux branches dans une phase de réalisation progressive,
+la méthode favorise la maîtrise des risques, l'amélioration continue et
+l'alignement du produit final sur les besoins de **[utilisateurs ou
+organisation]**. Elle constitue ainsi une approche pertinente pour les
+projets dont les exigences fonctionnelles et les contraintes techniques
+doivent être analysées conjointement.
+
+![images](2TUP/images.jpg)
