@@ -6,7 +6,7 @@ paginate: true
 style: |
   section {
     font-family: "Aptos", "Segoe UI", sans-serif;
-    background: #f8fafc;
+    background: linear-gradient(180deg, #f8fafc 0%, #eef4ff 100%);
     color: #172033;
     padding: 48px 64px;
   }
@@ -23,6 +23,13 @@ style: |
   ul {
     font-size: 1.25em;
     line-height: 1.65;
+  }
+  img {
+    border-radius: 18px;
+    box-shadow: 0 12px 30px rgba(32, 52, 92, 0.12);
+    background: #ffffff;
+    border: 1px solid rgba(148, 163, 184, 0.35);
+    padding: 6px;
   }
   section.title-slide {
     display: flex;
@@ -46,6 +53,10 @@ style: |
     width: auto;
     object-fit: contain;
     filter: drop-shadow(0 3px 8px rgba(36, 59, 107, 0.12));
+    padding: 0;
+    border: none;
+    box-shadow: none;
+    background: transparent;
   }
   section.image-only {
     display: flex;
@@ -56,9 +67,12 @@ style: |
     padding: 24px;
   }
   section.image-only img {
+    display: block;
     max-width: 96%;
     max-height: 78%;
+    width: auto;
     object-fit: contain;
+    margin: 0 auto;
   }
   section.diagram-slide img {
     display: block;
@@ -96,7 +110,7 @@ Encadrant : ES-Sarraj Fouad
 
 ---
 
-## <!-- _class: image-only -->
+<!-- _class: image-only -->
 
 ## Méthode de travail
 
@@ -106,7 +120,7 @@ Encadrant : ES-Sarraj Fouad
 
 ## Scrum
 
-![Méthode Scrum](../rapport/SCRUM/scrum.png)
+![Méthode Scrum](../rapport/Scrum/scrum.png)
 
 ---
 
@@ -122,7 +136,7 @@ Encadrant : ES-Sarraj Fouad
 
 ## Design Thinking
 
-![Design Thinking](../rapport/design_thinking/design_thinking.jpg)
+![Design Thinking](../rapport/Design%20Thinking/design_thinking.jpg)
 
 ---
 
@@ -150,7 +164,7 @@ Encadrant : ES-Sarraj Fouad
 
 ## Diagramme de cas d'utilisation
 
-![Diagramme de cas d'utilisation](diagramme-cas-utilisation.png)
+![Diagramme de cas d'utilisation](use_case_diagram.png)
 
 ---
 
