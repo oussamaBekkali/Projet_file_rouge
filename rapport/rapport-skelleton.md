@@ -11,17 +11,13 @@ Remerciement
 
 Introduction
 
-Contexte du projet
+Contexte de projet
 
-Cahier des charges
-
-Méthodologie de travail
-
-    Méthodologie Scrum
-    Processus 2TUP
+    Cahier des charges
+    Méthodologie de travail
+    Scrum
+    2TUP
     Design Thinking
-
-Planification
 
 Branche fonctionnelle
 
@@ -33,7 +29,7 @@ Branche fonctionnelle
 Branche technique
 
     Stack technologique
-    Architecture logicielle
+    Architecture de system
     Prototype (fonctionnalités, classes)
 
 Conception
@@ -43,6 +39,6 @@ Conception
 
 Réalisation
 
-Interfaces
+    Interfaces
 
 Conclusion
