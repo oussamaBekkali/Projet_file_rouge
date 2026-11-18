@@ -120,7 +120,7 @@ Encadrant : ES-Sarraj Fouad
 
 ## Scrum
 
-![Méthode Scrum](../rapport/Scrum/scrum.png)
+![Méthode Scrum](scrum.png)
 
 ---
 
